@@ -1,0 +1,173 @@
+/* cyber-security */
+@font-face {
+  font-family: "monster";
+  src: url("../font-family/Cerebri\ Sans\ Regular.ttf");
+}
+
+.cyber-security {
+  background-color: #eef2f7;
+}
+
+.security-form .row {
+  margin: 0px !important;
+}
+
+.cyber-security h3 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-family: "monster";
+}
+
+.cyber-security span {
+  color: #0d328d;
+}
+
+.cyber-security p.p-1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #818995;
+  font-family: "monster";
+  margin-bottom: 90px;
+}
+
+.security-form {
+  background-image: url("../images/cyber-security/christopher-gower-m_HRfLhgABo-unsplash.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  opacity: 1;
+
+  position: relative;
+  z-index: 2;
+}
+
+.security-form::before {
+  background-color: #111e3fd3;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.security-form h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: "monster";
+  color: #ffffff;
+}
+
+.form-img {
+  margin: 0px 5px;
+}
+
+.security-form-p {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  font-family: "monster";
+}
+
+.security-form input {
+  margin: 10px 0px;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 25px 16px;
+  font-family: "monster";
+}
+
+.security-form ::placeholder {
+  color: #000000;
+}
+
+.security-textarea textarea {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 24px;
+  font-family: "monster";
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button button {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 15px 61px;
+  margin: 32px 0px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* cyber-security */
+  .cyber-security p.p-1 {
+    font-size: 16px;
+  }
+
+  .security-form-p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* cyber-security */
+  .cyber-security h3 {
+    font-size: 30px;
+  }
+
+  .cyber-security p.p-1 {
+    font-size: 12px;
+  }
+
+  .security-form-p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* cyber-security */
+  .security-form-p {
+    font-size: 16px;
+  }
+  .security-form div.container {
+    max-width: 100%;
+  }
+
+  .form-content {
+    display: contents;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* cyber-security */
+  .cyber-security h3 {
+    font-size: 24px;
+  }
+
+  .cyber-security p.p-1 {
+    font-size: 11px;
+  }
+
+  .security-form-p {
+    font-size: 13px;
+  }
+
+  .form-button button {
+    font-size: 13px;
+  }
+}
